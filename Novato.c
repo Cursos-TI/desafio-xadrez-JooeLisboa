@@ -94,37 +94,37 @@ int main() {
             case 1:
                 printf("Escolha Quantas casas voce quer andar: ");
                 scanf("%d", &movimento);
-                while (movimento2 <= movimento)
+                for ( movimento2 = 1; movimento2 <= movimento; movimento2++)
                 {
                     printf("Cima - Esquerda\n");
-                    movimento2++;
+                   
                 }
                 break;
             case 2:
                 printf("Escolha Quantas casas voce quer andar: ");
                 scanf("%d", &movimento);
-                while (movimento2 <= movimento)
+                for ( movimento2 = 1; movimento2 <= movimento; movimento2++)
                 {
                     printf("Baixo - Esquerda\n");
-                    movimento2++;
+                
                 }
                 break;
             case 3:
                 printf("Escolha Quantas casas voce quer andar: ");
                 scanf("%d", &movimento);
-                while (movimento2 <= movimento)
+                for ( movimento2 = 1; movimento2 <= movimento; movimento2++)
                 {
                     printf("Cima - Direita\n");
-                    movimento2++;
+                   
                 }
                 break;
             case 4:
                 printf("Escolha Quantas casas voce quer andar: ");
                 scanf("%d", &movimento);
-                while (movimento2 <= movimento)
+                for ( movimento2 = 1; movimento2 <= movimento; movimento2++)
                 {
                     printf("Baixo - Direita\n");
-                    movimento2++;
+                    
                 }
                 break;          
             default:
@@ -142,74 +142,66 @@ int main() {
             case 1:
                 printf("Escolha Quantas casas voce quer andar: ");
                 scanf("%d", &movimento);
-                while (movimento2 <= movimento)
-                {
+                do {
                     printf("Cima - Esquerda\n");
                     movimento2++;
-                }
+                } while (movimento2 <= movimento);
                 break;
             case 2:
                 printf("Escolha Quantas casas voce quer andar: ");
                 scanf("%d", &movimento);
-                while (movimento2 <= movimento)
-                {
+                do {
                     printf("Baixo - Esquerda\n");
                     movimento2++;
-                }
+                } while (movimento2 <= movimento);
                 break;
             case 3:
                 printf("Escolha Quantas casas voce quer andar: ");
                 scanf("%d", &movimento);
-                while (movimento2 <= movimento)
-                {
+                do {
                     printf("Cima - Direita\n");
                     movimento2++;
-                }
+                } while (movimento2 <= movimento);
                 break;
             case 4:
                 printf("Escolha Quantas casas voce quer andar: ");
                 scanf("%d", &movimento);
-                while (movimento2 <= movimento)
-                {
+                do {
                     printf("Baixo - Direita\n");
                     movimento2++;
-                }
+                } while (movimento2 <= movimento);
                 break;          
             case 5:
                 printf("Escolha Quantas casas voce quer andar: ");
                 scanf("%d", &movimento);
-                while (movimento2 <= movimento)
-                {
+                do{
                     printf("Cima\n");
                     movimento2++;
-                }
+                } while (movimento2 <= movimento);
                 break;
             case 6:
                 printf("Escolha Quantas casas voce quer andar: ");
                 scanf("%d", &movimento);
-                while (movimento2 <= movimento)
-                {
+                do{
                     printf("Baixo\n");
                     movimento2++;
-                }
+                } while (movimento2 <= movimento);
                 break;
             case 7:
                 printf("Escolha Quantas casas voce quer andar: ");
                 scanf("%d", &movimento);
-                while (movimento2 <= movimento)
-                {
+                do{
                     printf("Esquerda\n");
                     movimento2++;
-                }
+                } while (movimento2 <= movimento);
                 break;
             case 8:
                 printf("Escolha Quantas casas voce quer andar: ");
                 scanf("%d", &movimento);
-                while (movimento2 <= movimento)
-                {
+                do{
                     printf("Direita\n");
                     movimento2++;
-                }
+                } while (movimento2 <= movimento);
                 break;          
             default:
                 printf("Escolha Incorreta!");
@@ -217,7 +209,7 @@ int main() {
                 
             }
     } else {
-        printf("Opçao invalidad!");
+        printf("Opçao invalida!");
     }
         
 
